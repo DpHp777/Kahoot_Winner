@@ -1,0 +1,22 @@
+node_modules/
+.vercel/
+.env
+.env*.local
+npm-debug.log*
+
+# Obfuscation temp files (local only)
+.tmp-menu-src.js
+.tmp-menu-obf.js
+
+# Menú legible local (copia desde menu-source.example.js)
+scripts/menu-source.js
+scripts/source.example.js
+scripts/obfuscate-menu.js
+scripts/menu-source.example.js
+
+api/
+kahoot-latest-main/
+public/
+package-lock.json
+package.json
+vercel.json
